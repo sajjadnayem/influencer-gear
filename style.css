@@ -233,7 +233,13 @@ nav {
   .featured-product {
     display: block;
   }
-  .customer-area {
+  /* .customers {
     display: block;
+  } */
+  .customers {
+    display: block;
+    padding: 0;
+    margin: 0;
+    text-align: left;
   }
 }
