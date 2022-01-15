@@ -1,0 +1,178 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    margin: 30px;
+    padding: 0px 120px;
+}
+nav {
+    display: flex;
+    /* padding-top: 85px; */
+    justify-content: space-between;
+  }
+.nav-title{
+    font-size: 24px;
+    font-weight: 700px;
+    font-style: bold;
+}
+.nav-menu a{
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    color: #3A3A3A;
+}
+
+
+/* top banner css */
+.top-banner{
+    /* display: flex;
+    align-items: center;
+    margin: 50px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.top-banner h1{
+    font-weight: 700px;
+    font-size: 52px;
+    color: #3A3A3A;
+
+}
+.influencer-journey{
+    margin-left:165px;
+}
+.influencer-gear{
+    margin-right: 165px;
+    background-image: url('asset/images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px;
+}
+.gear-image{
+    width: 440px;
+    height: 414px;
+    padding-left: 10%;
+    transition: 5s;
+}
+.gear-image:hover{
+    transform: rotate(360deg);
+}
+.top-banner .button{
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700px;
+    color: #ffffff;
+    background-color:#E02C6D;
+    border-radius: 41px;
+    border-width: 196px;
+    padding: 10px 24px;
+}
+.fa-arrow-right{
+    height: 14px;
+    width: 16px;
+    padding: 10px 24px 10px 8px;
+    
+}
+/* brand-partner */
+/* .brand-partner{
+    margin: 50px;
+}
+.logo{
+    display: flex;
+}
+.brand-logo{
+    padding: 44px 60px 40px 61px;
+} */
+
+
+.product-collection-title{
+    text-align: center;
+    font-size: 28px;
+}
+.product-banner{
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 17px 15px 16px 14px;
+    width: 300px;
+    height: 256px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 100px 100px 0px 100px;
+    
+}
+.product{
+    margin: 15px;
+    background: #FFFFFF;;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 17px 15px 16px 14px;
+    border-radius: 5px;
+    width: 329px;
+}
+.product-details{
+    margin: 17px 15px 16px 14px;
+}
+
+.fa-star.filled{
+    color: #FB8200;
+}
+.more-product{
+    float: right;
+    margin-right: 100px;
+    text-decoration: none;
+}
+
+.featured {
+    margin-top: 150px;
+    margin-left: 165px;
+    margin-right: 165px;
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    grid-column-gap: 100px;
+    align-items: center;
+  }
+  .fhalf2 h3 {
+    font-size: 38px;
+    font-weight: 700;
+  }
+  .fhalf2 p {
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .fbutton {
+    border-radius: 0;
+  }
+/* .more-product-details{
+    
+    
+    text-decoration: none;
+    font-weight: bold;
+    color: #E02C6D;
+    float: right;
+} */
+
+.footer h1
+{
+font-size: 20px;
+text-align: center;
+padding-top: 50px;
+color: rgb(255, 255, 255);
+padding-top: 50px;
+}
+
+.footer
+{
+    margin-top: 100px;
+    text-align: center;
+    background: #0A0826;
+    height: 200px;
+    color: white;
+}
+.footer-info{
+    font-size: 14px;
+    color: #D9DBE1;
+}
